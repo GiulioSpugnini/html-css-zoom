@@ -23,6 +23,7 @@ header {
 .icon {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
+    color: white;
 }
 
 .header-button {
@@ -87,12 +88,60 @@ main {
 
 /* FOOTER */
 
-footer {
+.navbar {
+    background-color: #4a4a4a;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
-    bottom: 0;
-    height: 10vh;
-    background-color: lightpink;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.col .icon {
+    font-size: 30px;
+}
+
+.col .icon:hover {
+    color: green;
+}
+
+.col-left {
+    align-content: flex-start;
+}
+
+.col-middle {
+    align-content: center;
+}
+
+.col-right {
+    align-content: flex-end;
+    color: red;
+}
+
+.col-right:hover {
+    background-color: rgba(000, 000, 000, .4);
+    background-size: cover;
+}
+
+.col span {
+    align-self: flex-end;
+}
+
+.fa-microphone::after,
+.fa-video::after {
+    content: '\f077';
+    font-size: 15px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.fa-comment::before {
+    content: '\f078';
+    font-size: 15px;
+    vertical-align: middle;
+    padding-left: 5px;
 }
 
 

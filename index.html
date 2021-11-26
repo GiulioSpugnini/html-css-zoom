@@ -80,25 +80,48 @@
     <!-- FOOTER -->
     <footer>
         <nav class="navbar">
-            <div class="col col-left">
-                <i class="icon fas fa-microphone"></i> <span>Mute</span>
-                <i class="icon fas fa-video"></i> Stop Video
+            <!-- LEFT -->
+            <div class="navbar-left">
+                <div>
+                    <i class="icon fas fa-microphone checked"></i>
+                    <p>Mute</p>
+                </div><i class="icon fas fa-chevron-up checked"></i>
+                <div>
+                    <i class="icon fas fa-video checked"></i>
+                    <p>Stop Video</p>
+                </div><i class="icon fas fa-chevron-up checked"></i>
             </div>
-            <div class="col col-middle">
-                <i class="icon fas fa-user-plus"></i> Invite
-                <i class="icon fas fa-user-friends"></i> Manage Partecipants
-                <i class="icon fas fa-chart-bar"></i> Pollings
-                <i class="icon fas fa-share-square"></i> Share Screen
-                <i class="icon fas fa-comment"></i> Chat
-                <i class="icon fas fa-record-vinyl"></i> Record
-                <i class="icon fas fa-th-large"></i> Breakout Rooms
-                <i class="icon fas fa-ellipsis-h"></i> More
-
-            </div>
-            <div class="bg-end-meeting">
-                <div class="col col-right">
-                    <span>End meeting</span>
+            <!-- MIDDLE -->
+            <div class="navbar-middle">
+                <div>
+                    <i class="icon fas fa-user-plus checked"></i>
+                    <p>Invite</p>
                 </div>
+                <div><i class="icon fas fa-user-friends checked"></i>
+                    <p>Manage Participants</p>
+                </div>
+                <div><i class="icon fas fa-chart-bar checked"></i>
+                    <p>Polling</p>
+                </div>
+                <div><i class="icon fas fa-share-square checked"></i>
+                    <p>Share Screen</p>
+                </div>
+                <div id="chat"><i class="icon fas fa-comment checked"></i>
+                    <p>Chat</p>
+                </div>
+                <div><i class="icon fas fa-record-vinyl checked"></i>
+                    <p>Record</p>
+                </div>
+                <div><i class="icon fas fa-th-large checked"></i>
+                    <p>Breakout Rooms</p>
+                </div>
+                <div><i class="icon fas fa-ellipsis-h checked"></i>
+                    <p>More</p>
+                </div>
+            </div>
+            <!-- RIGHT -->
+            <div class="navbar-right">
+                <p class="End-button">End meeting</p>
             </div>
         </nav>
     </footer>

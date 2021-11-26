@@ -29,8 +29,8 @@ header {
     margin-top: 2px;
     margin-right: 5px;
     background-color: #4a4a4a;
-    border-radius: 8px;
-    height: 25px;
+    border-radius: 5px;
+    height: 30px;
     padding: 5px 10px;
 }
 
@@ -46,6 +46,53 @@ header {
 
 .arrows-alt::before {
     content: '\f31e';
+}
+
+
+/* MAIN */
+
+main {
+    background-color: lightgreen;
+    max-width: 1800px;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.users-video {
+    background-image: url('https://picsum.photos/id/237/200/300');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+
+.users-video span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(000, 000, 000, .4);
+}
+
+.users-video span::before {
+    content: '\f131';
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 10vh;
+    background-color: lightpink;
 }
 
 
